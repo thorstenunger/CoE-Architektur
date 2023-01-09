@@ -7,21 +7,28 @@
  
 Hier wird in Terraform die Bereitstellung einer Umgebung definiert, die eine Web-App und eine DB enthält - plus zugehörige Ressourcen wie Netz-Infrastruktur etc.
 
+
 Features aktuell:
+
 	- Es kann jetzt eine komplette Umgebung erstellt werden. 
 	- Es gibt eine Möglichkeit, Scripte zu hinterlegen, um flexibel "Dinge" ausführen zu können (Powershell, SQL). 
 	- Eine individuell programmierte App kann direkt hinterlegt (funktioniert) und installiert werden (in Arbeit)
 	- Automatisierte Anlage der Datenbank zur App ist bereits vorgesehen
 	- ggf können auch Daten via Script / Tabelle eingelesen werden (in Arbeit)
-
+	
 Ziel ist die Möglichkeit zur kurzfristigen Bereitstellung einer Test- / Demo-Umgebung zur Präsentation von durch IT-P entwickelte Software.
 Alternativ auch gern als Grundlage für eine erste Kundenumgebung zu nutzen ( eine eigene kleine "Landing Zone" :-) )
 
 
+
 Status des Projekts
+
 05.01.23
+
 	ein unübersichtliches Script wurde in Teil-Scripts aufgesplitted.
+
 09.01.23
+
 	eine lose Folge von einzelnen Scripts wurde zu möglichst strukturierten Modulen umgewandelt, die sich deutlich besser / sinniger verwalten lassen.
 	
 	vom lokalen Rechner nach GITHub überführt
