@@ -29,7 +29,8 @@ Status des Projekts
 
 09.01.23
 
-	eine lose Folge von einzelnen Scripts wurde zu möglichst strukturierten Modulen umgewandelt, die sich deutlich besser / sinniger verwalten lassen.
+	eine lose Folge von einzelnen Scripts wurde zu möglichst strukturierten Modulen umgewandelt, die sich deutlich besser / sinniger 
+	verwalten lassen.
 	
 	vom lokalen Rechner nach GITHub überführt
 	- Es sind noch Fehler / Ungereimtheiten vorhanden: Variablenzuordnung, Konsistenz der Benennung
