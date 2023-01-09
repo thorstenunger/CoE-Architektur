@@ -1,9 +1,7 @@
 ###
 # CoE-Architektur:  IT-P Azure-Umgebung
 ###
-# Ausgangsmaterial war ein Script aus einem Terraform Kurs bei Udemy. Dieses wurde deutlich erweitert und ergänzt. 
-###
- 
+
  
 Hier wird in Terraform die Bereitstellung einer Umgebung definiert, die eine Web-App und eine DB enthält - plus zugehörige Ressourcen wie Netz-Infrastruktur etc.
 
@@ -21,8 +19,10 @@ Alternativ auch gern als Grundlage für eine erste Kundenumgebung zu nutzen ( ei
 
 
 
-Status des Projekts
+# Status des Projekts
 
+Ausgangsmaterial war ein Script aus einem Terraform Kurs bei Udemy. Dieses wurde deutlich erweitert und ergänzt. 
+ 
 05.01.23
 
 	ein unübersichtliches Script wurde in Teil-Scripts aufgesplitted.
