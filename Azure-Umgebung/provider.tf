@@ -2,7 +2,7 @@
 
 Hier sind IDs und das Secret anzupassen auf die jeweils 
 genutzte Umgebung.
-Terraform-App in AAD als App-Registration registrieren nicht 
+Terraform-App in AAD als App-Registration anlegen nicht 
 vergessen.
 
 - subscription ID ist klar
