@@ -6,7 +6,7 @@
 Hier wird in Terraform die Bereitstellung einer Umgebung definiert, die eine Web-App und eine DB enthält - plus zugehörige Ressourcen wie Netz-Infrastruktur etc.
 
 
-Features aktuell:
+Features:
 
 	- Es kann jetzt eine komplette Umgebung erstellt werden. 
 	- Es gibt eine Möglichkeit, Scripte zu hinterlegen, um flexibel "Dinge" ausführen zu können (Powershell, SQL). 
