@@ -37,3 +37,8 @@ Ausgangsmaterial war ein Script aus einem Terraform Kurs bei Udemy. Dieses wurde
 	- Kommentare fehlen oder sind unvollständig
 	- Die derzeitig genutzte MSSQL-DB muss getauscht werden zu einer Mongo-DB Dafür fehlt mir noch Info zu SKU, Anbindung etc
 
+06.02.23
+
+	Zur Sicherheit der Zugangsdaten wurde ein Verweis auf den Einsatz von Umgebungsvariablen zugefügt in "providers.tf"
+	Eine implemente Mongo-DB wurde endlich zugefügt!
+	
