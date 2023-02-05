@@ -82,3 +82,15 @@ resource "azurerm_mssql_virtual_machine" "mssqlmachine" {
   sql_connectivity_port            = 1433
   sql_connectivity_type            = "PRIVATE"
 }
+  
+data "azurerm_cosmosdb_account" "ITP-Demo_acct" {
+  name                = "ITP-cosmosdb-account"
+  resource_group_name = "local.resource_group_name"
+}
+
+resource "azurerm_cosmosdb_mongo_database" "ITP-Demo" {
+  name                = "ITP-cosmos-mongo-db"
+  resource_group_name = local.resource_group_name
+  account_name        = data.azurerm_cosmosdb_account.ITP-Demo_acct.name
+  throughput          = 400
+}
