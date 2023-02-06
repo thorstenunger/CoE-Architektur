@@ -6,11 +6,13 @@ variable network_interface_name{
 variable "resource_group_name" {
   type=string
   description="This defines the name of the resource group"
+  default = local.resource_group_name
 }
 
 variable "location" {
   type=string
   description="This defines the location of the virtual network"
+  default = local.location
 }
 
 variable "subnet_id" {
