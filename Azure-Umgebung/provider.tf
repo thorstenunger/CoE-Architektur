@@ -31,9 +31,9 @@ terraform {
 
 
 provider "azurerm" {
- subscription_id = "6912d7a0-bc28-459a-9407-33bbba641c07"
-  tenant_id = "70c0f6d9-7f3b-4425-a6b6-09b47643ec58"
-  client_id = "d247a470-217b-44ae-b35c-8605a63dfe5c"
-  client_secret = "Q468Q~Ymf9BDECmUbyF..i64i4kEUxDqJGPxsaBp"
+ subscription_id = "6912d7a0-bc28-459a-9407-33bbba641c07example"
+  tenant_id = "70c0f6d9-7f3b-4425-a6b6-09b47643ec58example"
+  client_id = "d247a470-217b-44ae-b35c-8605a63dfe5cexample"
+  client_secret = "Q468Q~Ymf9BDECmUbyF..i64i4kEUxDqJGPxsaBpexample"
   features {}  
 }

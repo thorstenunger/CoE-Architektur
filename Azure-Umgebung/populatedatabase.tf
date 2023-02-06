@@ -11,6 +11,10 @@ Storage Account anpasssen
 */
 
 
+/*
+nicht mehr nötig nach Umstellung auf Mongo-DB
+
+
 module "storage_module"{
     source="./modules/storage"
     resource_group_name=local.resource_group_name
@@ -48,3 +52,4 @@ module custom_script {
   ]
 }
 
+*/
