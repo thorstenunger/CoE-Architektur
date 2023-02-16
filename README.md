@@ -1,5 +1,5 @@
 ###
-# CoE-Architektur:  IT-P Azure-Umgebung
+# IT-P Azure Architektur mit Terraform
 ###
 
  
