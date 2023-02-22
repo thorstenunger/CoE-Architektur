@@ -42,3 +42,12 @@ Ausgangsmaterial war ein Script aus einem Terraform Kurs bei Udemy. Dieses wurde
 	Zur Sicherheit der Zugangsdaten wurde ein Verweis auf den Einsatz von Umgebungsvariablen zugefügt in "providers.tf"
 	Eine implemente Mongo-DB wurde endlich zugefügt!
 	
+14.02.23 
+
+	Einige Anpassungen vorgenommen, um Mongo zu unterstützen.
+	
+22.02.23
+	
+	diverse Vereinfachungen und Zusammenfassungen vorgenommen: Aufbau des Codes war zu komplex, um gut gelesen werden zu können.
+	
+
