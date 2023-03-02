@@ -34,7 +34,7 @@ provider "azurerm" {
   subscription_id = "c3498af5-7439-4159-8791-7041d85318eb"
   tenant_id       = "f16b93ce-4a22-4083-b67e-7bb9d3fed127"
   client_id       = "f6d97b22-1f34-4b88-896d-3733f8436062"
-  client_secret   = "ExAmPlE"
+  client_secret   = "tRW8Q~Dhfq_kpy3a~yhWyPOkedhErBZeYzI2ebmx"
   // client_secret wird üblicherweise bei Aufruf über cli zugeführt
   features {}
 }
@@ -110,10 +110,12 @@ Die DB-Ressource ist umgestellt auf Mongo DB !!!
 Zu klären ist, wie korrekte SKU zuweisen
 */
 
+
 data "azurerm_cosmosdb_account" "ITP-Demo_acct" {
   name                = "ITP-cosmosdb-account"
   resource_group_name = "local.resource_group_name"
 }
+
 
 resource "azurerm_cosmosdb_mongo_database" "ITP-Demo" {
   name                = "ITP-cosmos-mongo-db"
