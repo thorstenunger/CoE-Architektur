@@ -1,6 +1,0 @@
-/.terraform/
-Azure-Umgebung.code-workspace
-/Azure-Umgebung/.terraform/
-/Azure-Umgebung/Azure-Umgebung.code-workspace
-/.git/
-.terraform.lock.hcl
