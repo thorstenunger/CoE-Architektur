@@ -24,19 +24,14 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "3.10.0"
+      version = "~>3.10.0"
     }
   }
 }
 
 
 provider "azurerm" {
-  subscription_id = "c3498af5-7439-4159-8791-7041d85318eb"
-  tenant_id       = "f16b93ce-4a22-4083-b67e-7bb9d3fed127"
-  client_id       = "f6d97b22-1f34-4b88-896d-3733f8436062"
-  client_secret   = "tRW8Q~Dhfq_kpy3a~yhWyPOkedhErBZeYzI2ebmx"
-  // client_secret wird üblicherweise bei Aufruf über cli zugeführt
-  features {}
+    features {}
 }
 
 module "general_module" {
